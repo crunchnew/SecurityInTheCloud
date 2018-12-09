@@ -1,0 +1,24 @@
+keytool -genkey -alias mykey -keystore keys.pfx -storetype PKCS12 -keyalg RSA -storepass -validity 200000 -keysize 4096
+
+C:\JavaEE\Java\jdk\bin>keytool -list -v -keystore keys.pfx -storetype PKCS12
+Enter keystore password:
+Keystore type: PKCS12
+Keystore provider: SUN
+
+Your keystore contains 1 entry
+
+Alias name: mykey
+Creation date: Nov 27, 2018
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Wieslaw Czuber, OU=Private, O=Private, L=Krakow, ST=KR, C=PL
+Issuer: CN=Wieslaw Czuber, OU=Private, O=Private, L=Krakow, ST=KR, C=PL
+Serial number: 198cd5e1
+Valid from: Tue Nov 27 16:26:15 CET 2018 until: Fri Jun 27 17:26:15 CEST 2566
+Certificate fingerprints:
+         SHA1: E5:89:8E:AD:F8:4E:4A:A1:51:8E:D7:FB:E7:06:08:53:A2:21:3B:D7
+         SHA256: 09:BD:79:FD:91:4A:61:D3:9A:BD:92:F4:87:52:11:F8:E7:54:15:76:C0:77:52:B7:D9:43:56:84:77:77:31:00
+Signature algorithm name: SHA384withRSA
+Subject Public Key Algorithm: 4096-bit RSA key
+
