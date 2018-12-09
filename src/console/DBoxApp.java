@@ -47,10 +47,11 @@ public class DBoxApp {
       System.exit(0);
     }
     
+    
     console.printf("\"Security in the cloud\" v 1.0 2018 \n \n");
     
-    //Crypto.setKeyStorePassword( console.readPassword("Enter your secret password: > ") );
-    //if ( ! Crypto.isPasswordCorrect() )  System.exit(0);
+    Crypto.setKeyStorePassword( console.readPassword("Enter your secret password: > ") );
+    //if ( ! Crypto.isPasswordCorrect() )  System.exit(0); jjjjj
     
     for(;;) {
       console.printf( getPrompt() );

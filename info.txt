@@ -8,6 +8,7 @@ Keystore provider: SUN
 Your keystore contains 1 entry
 
 Alias name: mykey
+
 Creation date: Nov 27, 2018
 Entry type: PrivateKeyEntry
 Certificate chain length: 1
